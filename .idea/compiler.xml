@@ -2,11 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="saas-mobile" />
+        <module name="ihrm_common_model" />
+        <module name="ihrm-common" />
+        <module name="ihrm_company" />
       </profile>
     </annotationProcessing>
   </component>
